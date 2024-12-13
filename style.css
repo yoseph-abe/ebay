@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.mainContainer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+img{
+    width: 100vw;
+    max-width: 800px;
+}
+.teaserProduct{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    color: rgb(199, 199, 199);
+}
+
+
+.productProperty{
+    background-color: rgb(212, 212, 212);
+    border: 1px solid rgb(235, 235, 235);
+
+}
